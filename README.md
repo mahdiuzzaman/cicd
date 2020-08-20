@@ -15,7 +15,7 @@ A pre-trained, `sklearn` model that has been trained to predict housing prices i
 * Run `./make_prediction.sh` to get pprediction result
 
 
-## Inside a Docker COntainer
+## Inside a Docker Container
 * Install docker
 * Run `./run_docker.sh`
 * Run `./make_prediction.sh` to get pprediction result
@@ -23,6 +23,7 @@ A pre-trained, `sklearn` model that has been trained to predict housing prices i
 
 ## Inside Kubernetes
 * Install kubectl and minikube
+* Run `minikube start`
 * Run `./run_kubernetes.sh
 * Run `./make_prediction.sh` to get pprediction result
 
