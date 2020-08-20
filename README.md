@@ -4,8 +4,9 @@
 A pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing). A Python flask app, `app.py`—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
 
 
-# How run the project
-## Directly running in localhost/linux machine
+# How to run the project
+
+## Directly running inside localhost/linux machine
 * Install python 3.7 by running `sudo apt install python3.7` 
 * Go to project directory
 * Run `make setup`
@@ -15,13 +16,13 @@ A pre-trained, `sklearn` model that has been trained to predict housing prices i
 * Run `./make_prediction.sh` to get pprediction result
 
 
-## Inside a Docker Container
+## Running inside a Docker Container
 * Install docker
 * Run `./run_docker.sh`
 * Run `./make_prediction.sh` to get pprediction result
 
 
-## Inside Kubernetes
+## Running inside Kubernetes cluster
 * Install kubectl and minikube
 * Run `minikube start`
 * Run `./run_kubernetes.sh`
